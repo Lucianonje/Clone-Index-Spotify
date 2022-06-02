@@ -60,7 +60,7 @@ p {
 }
 
 footer {
-    height: 400px;
+    height: 100%;
     background: #000;
     padding: 50px 20px;
     position: relative;
@@ -68,6 +68,8 @@ footer {
     font-size: 16px;
     font-weight: 200;
     line-height: 1.5;
+    
+    position: relative;
 }
 
 footer h4 {
@@ -120,16 +122,16 @@ ul.text {
     font-size: 0.7em;
 }
 
+
 /* Extra small devices (portrait phones, less than 576px)*/
 @media (max-width: 575.98px) {
     h1 { font-size:3em;}
+
  }
 
 /* Small devices (landscape phones, 576px and up)*/
 @media (min-width: 576px) and (max-width: 767.98px) { 
     
-    
-}
 
 /* Medium devices (tablets, 768px and up)*/
 @media (min-width: 768px) and (max-width: 991.98px) { 
